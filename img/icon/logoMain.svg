@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="116" height="52" viewBox="0 0 116 52">
+  <g id="Group_3" data-name="Group 3" transform="translate(-810 -488)">
+    <path id="Path_1" data-name="Path 1" d="M15,0h86c8.284,0,15,6.457,15,14.423V35.577C116,43.543,109.284,50,101,50H15C6.716,50,0,43.543,0,35.577V14.423C0,6.457,6.716,0,15,0Z" transform="translate(810 490)" fill="#010101"/>
+    <text id="gada" transform="translate(816 497)" fill="#ffefef" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="22">gada</tspan></text>
+    <g id="Group_4" data-name="Group 4" transform="translate(-4 1)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="54" height="32" transform="translate(865 497)" fill="#b60af2"/>
+      <text id="DEV" transform="translate(866 522)" fill="#f8f8f8" font-size="25" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">D</tspan><tspan y="0" font-size="32">E</tspan><tspan y="0">V</tspan></text>
+    </g>
+  </g>
+</svg>

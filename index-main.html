@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/12f31104f0.js"></script>
+    <link rel="stylesheet" href="./css/carousel/swiper.min.css">
+    <link rel="stylesheet" href="./css/main-style.css">
+</head>
+<body>
+
+   
+    <div class="wrapper">
+            <header  >
+               
+                <div class="three-menu">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                </div>
+                      
+                <div class="title-header">
+                <ul>
+                    <a href=""> <li>Home</li></a>
+                    <a href="#"><li>Contact</li></a>
+                    <a href="#"> <li>About</li></a>
+                </ul>
+                </div>
+            
+            
+                <form action="#" method="get" >
+                    <i class="fas fa-search"></i>
+                    <input type="text" name="search" placeholder="Search for">
+                
+                </form>
+        
+                
+                
+            
+            </header>
+            <div class="introduce-logo">
+                <img src="./img/icon/logo-center.png" alt="">
+            </div>
+            <!-- carousel -->
+            <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <a class="swiper-slide slide1" href="#">
+                            <div class="slide-content">
+                                    <i class="fas fa-user-graduate"></i>
+                                <span>
+                                    CHUYỆN ĐỜI SINH VIÊN
+                                </span>
+                            </div>
+                           
+                        </a>
+                        <a class="swiper-slide slide2" href="#">
+                            <div class="slide-content">
+                                    <i class="fas fa-code"></i>
+                                <span>
+                                   CHIA SẺ VỀ LẬP TRÌNH
+                                </span>
+                            </div>
+                           
+                        </a>
+                        <a class="swiper-slide slide3" href="#">
+                            <div class="slide-content">
+                                    <i class="fas fa-suitcase-rolling"></i>
+                                <span>
+                                   NHỮNG CHUYẾN ĐI XA
+                                </span>
+                            </div>
+                        </a>
+                        <a class="swiper-slide slide4" href="#">
+                            <div class="slide-content">
+                                <i class="fas fa-chess-queen"></i>
+                                <span>
+                                    JAVASCRIPT CONFERENCE
+                                </span>
+                            </div>
+                        </a>
+            
+                       
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                  
+                
+                  
+            </div>
+            <!-- ! beside-nav -->
+             <div class="beside-nav">
+               
+               <div class="title-nav">
+                  <ul>
+                      <a href=""> <li>Home</li></a>
+                      <a href="#"><li>Contact</li></a>
+                      <a href="#"> <li>About</li></a>
+                    </ul>
+
+              </div>
+              <div class="topic">
+                  <p>Topic</p>
+                   <div class="menu">
+
+                        <li class="item" id='profile'>
+                            <a href="#profile" class="btn">Chuyện code</a>
+                            <div class="smenu">
+                                <a href="#">Posts</a>
+                                <a href="#">Picture</a>
+            
+                              </div>
+                        </li>
+            
+                        <li class="item" id="messages">
+                                <a href="#messages" class="btn">Chuyện đời sống</a>
+                                <div class="smenu">
+                                    <a href="#">Posts</a>
+                                    <a href="#">Picture</a>
+                
+                                </div>
+                        </li> 
+                </div>
+              
+            </div> 
+        </div>
+            <!-- ! that main content -->
+            <div class="main-section" >
+                <div class="section-right">
+    
+                    <div class="profile">
+                            <div class="title-profile">
+                              <p>Profile</p>
+                            </div>
+                            <div class="avatar">
+                                <img src="./img/imgHai.jpg" alt="avatar">
+                            </div>
+                            <div class="content-profile">
+                                <p class="Name">Nguyễn Vĩnh Hải</p>
+                                <p class="job">I'm developer</p>
+                            </div>
+                          
+                        </div>
+  
+                        <div class="social">
+                            <div class="title-social">
+                                <p>Social</p>
+                           </div>
+                            <div class="icon-social">
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-github-square"></i></a>
+                                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </div>
+                         
+  
+                        </div>
+  
+                        <div class="user-view">
+                              <div class="user-online">
+                                    <p class="title-user">
+                                      User Online
+                                    </p>
+                                    <!-- ! user online -->
+                                    <p id="number-user-online">
+                                      10
+                                    </p>
+                              </div>
+  
+                              <div class="total-views">
+                                  <p class="title-total">
+                                     Total views
+                                    </p>
+                                    <!-- ! user online -->
+                                    <p id="number-total">
+                                      1000
+                                    </p>
+                              </div>
+                        </div>
+                        <div class="important-news">
+                            <div class="title-post-important">
+                                <p>My important posts</p>
+                            </div>
+  
+                            <div class="wrap-news-important">
+                                <div class="img-impor">
+                                    <a href="#"><img src="./img/imgHai.jpg" alt="picture"></a> 
+                                </div>
+                              
+                                <div class="content-important">
+                                    <a href="#">
+                                        <p class="title-important">
+                                         
+                                            Promise Javascript    
+                                            Promise Javascript    
+                                              
+                                        </p>
+                                    </a>
+                                   <a href="#">
+                                      <p class="des-important">
+                                          Javascript is owsome language that every one should learn .
+                                          Javascript is owsome language that every one should learn .
+                                       
+                                      </p>
+                                   </a>
+                                   
+                                </div>
+                            </div>
+                            <div class="wrap-news-important">
+                                <div class="img-impor">
+                                    <a href="#"><img src="./img/imgHai.jpg" alt="picture"></a> 
+                                </div>
+                              
+                                <div class="content-important">
+                                    <a href="#">
+                                        <p class="title-important">
+                                            Promise Javascript 
+                                            Promise Javascript    
+                                             
+                                              
+                                        </p>
+                                    </a>
+                                   <a href="#">
+                                      <p class="des-important">
+                                          Javascript is owsome language that every one should learn .
+                                          Javascript is owsome language that every one should learn .
+                                       
+                                      </p>
+                                   </a>
+                                   
+                                </div>
+                            </div>
+                            <div class="wrap-news-important">
+                                <div class="img-impor">
+                                    <a href="#"><img src="./img/imgHai.jpg" alt="picture"></a> 
+                                </div>
+                              
+                                <div class="content-important">
+                                    <a href="#">
+                                        <p class="title-important">
+                                            Promise Javascript 
+                                            Promise Javascript    
+                                             
+                                              
+                                        </p>
+                                    </a>
+                                   <a href="#">
+                                      <p class="des-important">
+                                          Javascript is owsome language that every one should learn .
+                                          Javascript is owsome language that every one should learn .
+                                       
+                                      </p>
+                                   </a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+              <!-- ? that main news-->
+                <div class="section-left">
+                        <div class="title-post">
+                          <p>My posts</p>
+                        </div>
+
+                         <div class="place-post-news">
+                            <div class="wrapper-news">
+                                <div class="img-news-outside">
+                                    <a href="#">
+                                      <img src="./img/imgHai.jpg" alt="#" class="img-news">
+                                    </a>
+                                </div>
+                              
+                                <div class="content-news">
+                                      <!-- !1  -->
+                                      <div class="title-news">
+                                          <a href="#"> 
+                                              <p >
+                                              Promise Javascript   
+                                        
+                                              </p>
+                                          </a>       
+                                      </div>
+                                                        
+                                      <!-- !2  -->
+                                      <p class="date-news">
+                                        5/4/1999
+                                      </p>
+                                      <!-- !3  -->
+                                      <div class="description-outside">
+                                          <a href="#">
+                                              <p class="description">
+                                                  Javascript is owsome language that every one should learn .
+                                                  Javascript is owsome language that every one should learn . 
+                                                 
+                                                  
+                                                </p>
+                                          </a>
+                                      </div>
+                                    
+                                      
+                                      <!-- !4   -->
+                                      <div class="wrapper-like-com">
+                                          <div class="count-like-com-share">
+                                              <p>100</p>
+                                              <p>200</p>
+                                              <p>300</p>
+                                          </div>
+                                          <div class="icon-like-com">
+                                              <i class="fas fa-thumbs-up"></i>
+                                              <i class="fas fa-comment"></i>
+                                              <i class="fas fa-share-square"></i>
+                                          </div>
+                                      </div>
+                                </div>
+                              
+                              
+                          </div>
+                          <div class="wrapper-news">
+                              <div class="img-news-outside">
+                                  <a href="#">
+                                    <img src="./img/imgHai.jpg" alt="#" class="img-news">
+                                  </a>
+                              </div>
+                            
+                              <div class="content-news">
+                                    <!-- !1  -->
+                                    <div class="title-news">
+                                        <a href="#"> 
+                                            <p >
+                                            Promise Javascript   
+                                      
+                                            </p>
+                                        </a>       
+                                    </div>
+                                                      
+                                    <!-- !2  -->
+                                    <p class="date-news">
+                                      5/4/1999
+                                    </p>
+                                    <!-- !3  -->
+                                    <div class="description-outside">
+                                        <a href="#">
+                                            <p class="description">
+                                                Javascript is owsome language that every one should learn .
+                                                Javascript is owsome language that every one should learn . 
+                                               
+                                                
+                                              </p>
+                                        </a>
+                                    </div>
+                                  
+                                    
+                                    <!-- !4   -->
+                                    <div class="wrapper-like-com">
+                                        <div class="count-like-com-share">
+                                            <p>100</p>
+                                            <p>200</p>
+                                            <p>300</p>
+                                        </div>
+                                        <div class="icon-like-com">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <i class="fas fa-comment"></i>
+                                            <i class="fas fa-share-square"></i>
+                                        </div>
+                                    </div>
+                              </div>
+                            
+                            
+                        </div>
+                        <div class="wrapper-news">
+                            <div class="img-news-outside">
+                                <a href="#">
+                                  <img src="./img/imgHai.jpg" alt="#" class="img-news">
+                                </a>
+                            </div>
+                          
+                            <div class="content-news">
+                                  <!-- !1  -->
+                                  <div class="title-news">
+                                      <a href="#"> 
+                                          <p >
+                                          Promise Javascript   
+                                    
+                                          </p>
+                                      </a>       
+                                  </div>
+                                                    
+                                  <!-- !2  -->
+                                  <p class="date-news">
+                                    5/4/1999
+                                  </p>
+                                  <!-- !3  -->
+                                  <div class="description-outside">
+                                      <a href="#">
+                                          <p class="description">
+                                              Javascript is owsome language that every one should learn .
+                                              Javascript is owsome language that every one should learn . 
+                                             
+                                              
+                                            </p>
+                                      </a>
+                                  </div>
+                                
+                                  
+                                  <!-- !4   -->
+                                  <div class="wrapper-like-com">
+                                      <div class="count-like-com-share">
+                                          <p>100</p>
+                                          <p>200</p>
+                                          <p>300</p>
+                                      </div>
+                                      <div class="icon-like-com">
+                                          <i class="fas fa-thumbs-up"></i>
+                                          <i class="fas fa-comment"></i>
+                                          <i class="fas fa-share-square"></i>
+                                      </div>
+                                  </div>
+                            </div>
+                          
+                          
+                      </div>
+                          <div class="wrapper-news">
+                              <div class="img-news-outside">
+                                  <a href="#">
+                                    <img src="./img/img-news/js.png" alt="#" class="img-news">
+                                  </a>
+                              </div>
+                            
+                              <div class="content-news">
+                                    <!-- !1  -->
+                                    <div class="title-news">
+                                        <a href="#"> 
+                                            <p >
+                                            Promise Javascript   
+                                      
+                                            </p>
+                                        </a>       
+                                    </div>
+                                                      
+                                    <!-- !2  -->
+                                    <p class="date-news">
+                                      5/4/1999
+                                    </p>
+                                    <!-- !3  -->
+                                    <div class="description-outside">
+                                        <a href="#">
+                                            <p class="description">
+                                                Javascript is owsome language that every one should learn .
+                                               
+                                             
+                                                
+                                              </p>
+                                        </a>
+                                    </div>
+                                  
+                                    
+                                    <!-- !4   -->
+                                    <div class="wrapper-like-com">
+                                        <div class="count-like-com-share">
+                                            <p>100</p>
+                                            <p>200</p>
+                                            <p>300</p>
+                                        </div>
+                                        <div class="icon-like-com">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <i class="fas fa-comment"></i>
+                                            <i class="fas fa-share-square"></i>
+                                        </div>
+                                    </div>
+                              </div>
+                            
+                            
+                          </div>
+                          
+                          <div class="wrapper-news">
+                            <div class="img-news-outside">
+                                <a href="#">
+                                  <img src="./img/img-news/react.png" alt="#" class="img-news">
+                                </a>
+                            </div>
+                          
+                            <div class="content-news">
+                                  <!-- !1  -->
+                                  <div class="title-news">
+                                      <a href="#"> 
+                                          <p >
+                                          Promise Javascript   
+                                    
+                                          </p>
+                                      </a>       
+                                  </div>
+                                                    
+                                  <!-- !2  -->
+                                  <p class="date-news">
+                                    5/4/1999
+                                  </p>
+                                  <!-- !3  -->
+                                  <div class="description-outside">
+                                      <a href="#">
+                                          <p class="description">
+                                              Javascript is owsome language that every one should learn .
+                                              Javascript is owsome language that every one should learn . 
+                                              Javascript is owsome language that every one should learn .
+                                              Javascript is owsome language that every one should learn . 
+                                              Javascript is owsome language that every one should learn .
+                                              
+                                            </p>
+                                      </a>
+                                  </div>
+                                
+                                  
+                                  <!-- !4   -->
+                                  <div class="wrapper-like-com">
+                                      <div class="count-like-com-share">
+                                          <p>100</p>
+                                          <p>200</p>
+                                          <p>300</p>
+                                      </div>
+                                      <div class="icon-like-com">
+                                          <i class="fas fa-thumbs-up"></i>
+                                          <i class="fas fa-comment"></i>
+                                          <i class="fas fa-share-square"></i>
+                                      </div>
+                                  </div>
+                            </div>
+                          
+                          
+                          </div>
+                          <div class="wrapper-news">
+                              <div class="img-news-outside">
+                                  <a href="#">
+                                    <img src="./img/img-news/js.png" alt="#" class="img-news">
+                                  </a>
+                              </div>
+                            
+                              <div class="content-news">
+                                    <!-- !1  -->
+                                    <div class="title-news">
+                                        <a href="#"> 
+                                            <p >
+                                            Promise Javascript   
+                                      
+                                            </p>
+                                        </a>       
+                                    </div>
+                                                      
+                                    <!-- !2  -->
+                                    <p class="date-news">
+                                      5/4/1999
+                                    </p>
+                                    <!-- !3  -->
+                                    <div class="description-outside">
+                                        <a href="#">
+                                            <p class="description">
+                                                Javascript is owsome language that every one should learn .
+                                               
+                                             
+                                                
+                                              </p>
+                                        </a>
+                                    </div>
+                                  
+                                    
+                                    <!-- !4   -->
+                                    <div class="wrapper-like-com">
+                                        <div class="count-like-com-share">
+                                            <p>100</p>
+                                            <p>200</p>
+                                            <p>300</p>
+                                        </div>
+                                        <div class="icon-like-com">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <i class="fas fa-comment"></i>
+                                            <i class="fas fa-share-square"></i>
+                                        </div>
+                                    </div>
+                              </div>
+                            
+                            
+                          </div>
+                          <div class="wrapper-news">
+                              <div class="img-news-outside">
+                                  <a href="#">
+                                    <img src="./img/img-news/js.png" alt="#" class="img-news">
+                                  </a>
+                              </div>
+                            
+                              <div class="content-news">
+                                    <!-- !1  -->
+                                    <div class="title-news">
+                                        <a href="#"> 
+                                            <p >
+                                            Promise Javascript   
+                                      
+                                            </p>
+                                        </a>       
+                                    </div>
+                                                      
+                                    <!-- !2  -->
+                                    <p class="date-news">
+                                      5/4/1999
+                                    </p>
+                                    <!-- !3  -->
+                                    <div class="description-outside">
+                                        <a href="#">
+                                            <p class="description">
+                                                Javascript is owsome language that every one should learn .
+                                              
+                                                
+                                              </p>
+                                        </a>
+                                    </div>
+                                  
+                                    
+                                    <!-- !4   -->
+                                    <div class="wrapper-like-com">
+                                        <div class="count-like-com-share">
+                                            <p>100</p>
+                                            <p>200</p>
+                                            <p>300</p>
+                                        </div>
+                                        <div class="icon-like-com">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <i class="fas fa-comment"></i>
+                                            <i class="fas fa-share-square"></i>
+                                        </div>
+                                    </div>
+                              </div>
+                            
+                            
+                          </div>
+                          <div class="wrapper-news">
+                              <div class="img-news-outside">
+                                  <a href="#">
+                                    <img src="./img/imgHai.jpg" alt="#" class="img-news">
+                                  </a>
+                              </div>
+                            
+                              <div class="content-news">
+                                    <!-- !1  -->
+                                    <div class="title-news">
+                                        <a href="#"> 
+                                            <p >
+                                            Promise Javascript   
+                                      
+                                            </p>
+                                        </a>       
+                                    </div>
+                                                      
+                                    <!-- !2  -->
+                                    <p class="date-news">
+                                      5/4/1999
+                                    </p>
+                                    <!-- !3  -->
+                                    <div class="description-outside">
+                                        <a href="#">
+                                            <p class="description">
+                                                Javascript is owsome language that every one should learn .
+                                                Javascript is owsome language that every one should learn . 
+                                               
+                                                
+                                              </p>
+                                        </a>
+                                    </div>
+                                  
+                                    
+                                    <!-- !4   -->
+                                    <div class="wrapper-like-com">
+                                        <div class="count-like-com-share">
+                                            <p>100</p>
+                                            <p>200</p>
+                                            <p>300</p>
+                                        </div>
+                                        <div class="icon-like-com">
+                                            <i class="fas fa-thumbs-up"></i>
+                                            <i class="fas fa-comment"></i>
+                                            <i class="fas fa-share-square"></i>
+                                        </div>
+                                    </div>
+                              </div>
+                            
+                            
+                        </div>
+                        </div> 
+                        
+                        <div class="load-more">
+                          <a href="#">Load more</a>
+      
+                        </div>
+                        
+                </div>
+              <!-- ?that end main news -->
+
+                
+
+            </div>
+            <div class="move-on-top">
+                <i class="fas fa-angle-double-up"></i>
+            </div>
+            <footer >
+              <div class="footer-social">
+                  <p>Make friend with me</p>
+                  <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Youtube</a></li>
+                  </ul>
+              </div>
+              <div class="copy-right">
+                  <i class="far fa-copyright"></i>
+                  <p>Vĩnh Hải</p>
+              </div>       
+              <div class="map">
+                 
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.0680038494206!2d106.77962891535235!3d10.882432360202477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d885564fe55f%3A0x379c06540fbe1d54!2zS3nMgSBUw7pjIFjDoSBESFFHIFRQSENNIEtodSBC!5e0!3m2!1svi!2s!4v1565942525260!5m2!1svi!2s" frameborder="0" allowfullscreen></iframe>
+              </div>
+              
+         </footer>
+          
+      </div>   
+      
+
+
+<script src="./js/animation.js"></script>
+<script src="./js/carousel/swiper.min.js"></script>
+<script src="./js/carousel.main.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+</body>
+</html>
